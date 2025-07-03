@@ -1,41 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# ALX Listing App
+
+An Airbnb clone built with Next.js, TypeScript, and TailwindCSS. This project demonstrates modern web development practices and creates a foundation for a property listing platform.
+
+## Project Goals
+
+- Build a scalable and maintainable property listing application  
+- Implement responsive design with TailwindCSS  
+- Ensure type safety with TypeScript  
+- Follow React and Next.js best practices  
+- Create reusable components for consistency  
+
+## Project Structure
+
+```
+alx-listing-app/
+├── components/          # Reusable UI components
+│   └── common/          # Common components used across the app
+├── interfaces/          # TypeScript interfaces and types
+├── constants/           # Application constants and configuration
+├── pages/               # Next.js pages
+├── public/              # Static files
+│   └── assets/          # Images, icons, and other assets
+└── styles/              # Global styles
+```
+
+### Key Directories
+
+- **components/**: Contains all reusable React components  
+  - `common/`: Shared components like Card, Button, etc.  
+- **interfaces/**: TypeScript type definitions for type safety  
+- **constants/**: Centralized constants for easy maintenance  
+- **public/assets/**: Static assets like images and SVGs  
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 16+ installed  
+- npm or yarn package manager  
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone [repository-url]
+cd alx-listing-app
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+### Running the Development Server
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Development
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### Available Scripts
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+- `npm run dev` - Start the development server  
+- `npm run build` - Build the production application  
+- `npm run start` - Start the production server  
+- `npm run lint` - Run ESLint for code quality  
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Technology Stack
 
-## Learn More
+- **Next.js** - React framework for production  
+- **TypeScript** - Type safety and better developer experience  
+- **TailwindCSS** - Utility-first CSS framework  
+- **ESLint** - Code quality and consistency  
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+- Create a feature branch  
+- Make your changes  
+- Run linting and tests  
+- Submit a pull request  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
-# alx-listing-app
+This project is part of the ALX Software Engineering program.
